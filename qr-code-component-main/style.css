@@ -29,8 +29,8 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p.first {
-  font-weight: 800;
+h1 {
+  font-weight: 600;
   color: #1F314F;
   font-size: 22px;
   line-height: 120%;
