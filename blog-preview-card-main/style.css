@@ -2,11 +2,13 @@
     font-family: Figtree;
     src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
     font-style: italic;
+    font-display: swap;
 }
 @font-face {
     font-family: Figtree;
     src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -14,6 +16,7 @@
     src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
     font-style: normal;
     font-weight: 800;
+    font-display: swap;
 }
 
 
