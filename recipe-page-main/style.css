@@ -1,0 +1,175 @@
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: young-serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-display: swap;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    width: 46rem;
+    margin: 8rem 0;
+    padding: 2.5rem;
+}
+
+img {
+    height: 300px;
+    border-radius: 8px;
+    padding-bottom: 2.5rem;
+}
+
+
+
+
+.tp1 {
+    font-family: young-serif;
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: normal;
+    color: #312e2c;
+}
+
+.tp2 {
+    font-family: young-serif;
+    font-size: 1.75rem;
+    line-height: 1;
+    font-weight: normal;
+    color: #854632;
+}
+
+.tp3 {
+    font-family: outfit;
+    line-height: 1;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #7A284e;
+}
+
+.tp4 {
+    font-family: outfit;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #5f564d;
+}
+b {
+    font-family: outfit;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+hr {
+    border: 1px solid #e3ddd7
+}
+
+.prep-time {
+    padding: 2.5rem;
+}
+
+.prep-time ul {
+    padding-top: 1rem;
+      
+}
+
+.prep-time li::marker {
+    color: #7A284e;  
+}
+
+
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+li {
+    padding-left: 1rem;
+    padding-bottom:0.5rem;
+}
+
+li:last-of-type {
+    padding-bottom: 0;
+}
+
+.ingredients li::marker, .instructions li::marker {
+    color:#854632;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+
+section {
+    margin: 2rem 0;
+}
+
+
+.nutrition p {
+    margin-bottom: 1.5rem;
+}
+
+table {
+
+    width: 100%;
+    height: fit-content
+}
+
+th {
+    text-align: start;
+    font-weight: normal;
+    padding-left: 2rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem
+}
+
